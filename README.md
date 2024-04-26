@@ -5,20 +5,14 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Render server side 
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+SSR=1 npm run build
 ```
 
-### Lints and fixes files
+### Run server side app
 ```
-npm run lint
+node src/server.js
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
